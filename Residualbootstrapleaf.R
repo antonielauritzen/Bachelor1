@@ -106,7 +106,7 @@ average_r_squared<- mean(r_squared_values)
 overall_mse<- mean(mse_values)
 
 # Print the evaluation metrics
-print(cat("Coverage Probability:", coverage_probability, "\n"))
+cat("Coverage Probability:", coverage_probability, "\n")
 cat("Average Interval Width:", average_interval_width, "\n")
 cat("R-squared:", average_r_squared,"\n")
 cat("MSE:", overall_mse,"\n")
